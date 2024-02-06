@@ -20,8 +20,6 @@ from preprocessing.target_encoder import (
     transform_targets,
 )
 
-from sklearn.preprocessing import PolynomialFeatures
-
 PIPELINE_FILE_NAME = "pipeline.joblib"
 TARGET_ENCODER_FILE_NAME = "target_encoder.joblib"
 
