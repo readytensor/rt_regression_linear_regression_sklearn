@@ -22,3 +22,4 @@ coverage.xml
 *.cover
 
 .DS_Store
+test.*
