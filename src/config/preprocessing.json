@@ -1,7 +1,7 @@
 {
   "numeric_transformers": {
     "polynomial_regression": {
-      "degree": 1,
+      "degree": 2,
       "include_bias": false
     },
     "missing_indicator": {},
