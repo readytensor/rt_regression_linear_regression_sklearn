@@ -76,7 +76,6 @@ def get_preprocess_pipeline(data_schema: Any, preprocessing_config: dict) -> Pip
         variables=data_schema.numeric_features,
         degree=polynomial_degree,
         include_bias=polynomial_bias,
-        data_schema=data_schema,
     )
 
     mockup_poly_transformer = PolynomialFeatures(
